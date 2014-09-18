@@ -4,7 +4,7 @@
   "description": "AngularJS filter to provide relative, human-readable dates.",
   "homepage": "https://github.com/rk87/angular-relative-date",
   "authors": [
-    "Joseph Wynn <joseph@wildlyinaccurate.com>"
+    "Ray Khor <raykhor@gmail.com>"
   ],
   "keywords": [
     "angular",
