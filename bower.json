@@ -1,7 +1,7 @@
 {
-  "name": "angular-relative-date",
-  "version": "0.1.0",
-  "description": "AngularJS filter to provide relative, human-readable dates.",
+  "name": "angular-relative-date-zhtw",
+  "version": "0.1.1",
+  "description": "AngularJS filter to provide relative, human-readable dates. (zh-TW localized)",
   "homepage": "https://github.com/rk87/angular-relative-date",
   "authors": [
     "Ray Khor <raykhor@gmail.com>"
@@ -9,7 +9,9 @@
   "keywords": [
     "angular",
     "relative",
-    "date"
+    "date",
+    "chinese",
+    "zh-TW"
   ],
   "license": "MIT",
   "main": "./angular-relative-date.js",
