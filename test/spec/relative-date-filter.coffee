@@ -33,7 +33,7 @@ describe 'Filter: relativeDate', ->
     expect(relativeDate '2013-09-06T12:00:01Z').toEqual '23 小時前'
     expect(relativeDate '2013-09-06T12:00:00Z').toEqual '昨天'
     expect(relativeDate '2013-09-06T00:00:00Z').toEqual '昨天'
-    expect(relativeDate '2013-09-05T22:59:59Z').toEqual '昨天'
+    expect(relativeDate '2013-09-05T22:59:59Z').toEqual '2 天前'
     expect(relativeDate '2013-09-01').toEqual '6 天前'
     expect(relativeDate '2013-08-31').toEqual '1 週前'
     expect(relativeDate '2013-08-09').toEqual '4 週前'
