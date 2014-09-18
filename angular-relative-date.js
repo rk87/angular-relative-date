@@ -24,33 +24,33 @@
         }
         switch (false) {
           case !(delta < 30):
-            return 'just now';
+            return '剛剛';
           case !(delta < minute):
-            return "" + delta + " seconds ago";
+            return "" + delta + " 秒前";
           case !(delta < 2 * minute):
-            return 'a minute ago';
+            return '1 分鐘前';
           case !(delta < hour):
-            return "" + (Math.floor(delta / minute)) + " minutes ago";
+            return "" + (Math.floor(delta / minute)) + " 分鐘前";
           case Math.floor(delta / hour) !== 1:
-            return 'an hour ago';
+            return '1 小時前';
           case !(delta < day):
-            return "" + (Math.floor(delta / hour)) + " hours ago";
+            return "" + (Math.floor(delta / hour)) + " 小時前";
           case !(delta < day * 2):
-            return 'yesterday';
+            return '昨天';
           case !(delta < week):
-            return "" + (Math.floor(delta / day)) + " days ago";
+            return "" + (Math.floor(delta / day)) + " 天前";
           case Math.floor(delta / week) !== 1:
-            return 'a week ago';
+            return '1 週前';
           case !(delta < month):
-            return "" + (Math.floor(delta / week)) + " weeks ago";
+            return "" + (Math.floor(delta / week)) + " 週前";
           case Math.floor(delta / month) !== 1:
-            return 'a month ago';
+            return '上個月';
           case !(delta < year):
-            return "" + (Math.floor(delta / month)) + " months ago";
+            return "" + (Math.floor(delta / month)) + " 個月前";
           case Math.floor(delta / year) !== 1:
-            return 'a year ago';
+            return '1 年前';
           default:
-            return 'over a year ago';
+            return '很久以前';
         }
       };
     }

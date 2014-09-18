@@ -25,18 +25,18 @@ angular.module('relativeDate', [])
         calculateDelta()
 
       switch
-        when delta < 30 then 'just now'
-        when delta < minute then "#{delta} seconds ago"
-        when delta < 2 * minute then 'a minute ago'
-        when delta < hour then "#{Math.floor(delta / minute)} minutes ago"
-        when Math.floor(delta / hour) == 1 then 'an hour ago'
-        when delta < day then "#{Math.floor(delta / hour)} hours ago"
-        when delta < day * 2 then 'yesterday'
-        when delta < week then "#{Math.floor(delta / day)} days ago"
-        when Math.floor(delta / week) == 1 then 'a week ago'
-        when delta < month then "#{Math.floor(delta / week)} weeks ago"
-        when Math.floor(delta / month) == 1 then 'a month ago'
-        when delta < year then "#{Math.floor(delta / month)} months ago"
-        when Math.floor(delta / year) == 1 then 'a year ago'
-        else 'over a year ago'
+        when delta < 30 then '剛剛'
+        when delta < minute then "#{delta} 秒前"
+        when delta < 2 * minute then '1 分鐘前'
+        when delta < hour then "#{Math.floor(delta / minute)} 分鐘前"
+        when Math.floor(delta / hour) == 1 then '1 小時前'
+        when delta < day then "#{Math.floor(delta / hour)} 小時前"
+        when delta < day * 2 then '昨天'
+        when delta < week then "#{Math.floor(delta / day)} 天前"
+        when Math.floor(delta / week) == 1 then '1 週前'
+        when delta < month then "#{Math.floor(delta / week)} 週前"
+        when Math.floor(delta / month) == 1 then '上個月'
+        when delta < year then "#{Math.floor(delta / month)} 個月前"
+        when Math.floor(delta / year) == 1 then '1 年前'
+        else '很久以前'
   ]

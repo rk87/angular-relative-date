@@ -1,8 +1,8 @@
 # angular-relative-date
 
-[![Build Status](https://travis-ci.org/wildlyinaccurate/angular-relative-date.png?branch=master)](https://travis-ci.org/wildlyinaccurate/angular-relative-date)
+[![Build Status](https://travis-ci.org/rk87/angular-relative-date.png?branch=master)](https://travis-ci.org/wildlyinaccurate/angular-relative-date)
 
-AngularJS filter for creating relative, human-readable dates.
+AngularJS filter for creating relative, human-readable dates. (zh-TW localized)
 
 ## Usage
 
@@ -34,9 +34,9 @@ angular.module('myApp').controller('MainCtrl', function($scope) {
 
 The above example will look something like this:
 
-> Date strings work: **a week ago**
+> Date strings work: **1 週前**
 >
-> And so do `Date` objects: **just now**
+> And so do `Date` objects: **剛剛**
 
 ## License
 
