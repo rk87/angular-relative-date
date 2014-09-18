@@ -1,6 +1,6 @@
 # angular-relative-date
 
-[![Build Status](https://travis-ci.org/rk87/angular-relative-date.png?branch=master)](https://travis-ci.org/wildlyinaccurate/angular-relative-date)
+[![Build Status](https://travis-ci.org/rk87/angular-relative-date.png?branch=master)](https://travis-ci.org/rk87/angular-relative-date)
 
 AngularJS filter for creating relative, human-readable dates. (zh-TW localized)
 
